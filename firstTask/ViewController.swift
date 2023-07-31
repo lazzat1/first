@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
     @IBAction func plus(_ sender: Any) {
         var sum = String(Double(text1.text!)! + Double(text2.text!)!)
-       
+        // test
         if sum.contains(".0"){
             sum.removeLast(2)
         }
